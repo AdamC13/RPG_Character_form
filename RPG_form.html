@@ -12,7 +12,7 @@
 </head>
 <body>
     <main class="container my-4 p-3 border rounded shadow text-center">
-        <h3>Give me Your Chatacter details!</h3>
+        <h3>Give me Your Character details!</h3>
         <form class="row needs-validation g-3 p-2" novalidate>
             <div class="form-floating col-12 col-md-6 pl-0">
                 <input type="text" class="form-control" id="name" name="name" placeholder=""
@@ -21,7 +21,10 @@
                 <div class="valid-feedback">Right on!</div>
                 <div class="invalid-feedback">Give me yo name bro!</div>
             </div>
-
+            <div>
+                <input type="range" class="form-range" min="0" max="100" step="5" id="customRange1">
+                <label for="customRange1" class="form-label">Choose Your Strength</label>
+            </div>
         </form>
         </main>
 
